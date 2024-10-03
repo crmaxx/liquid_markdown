@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'active_support/core_ext/hash'
+
 module LiquidMarkdown
   class Render
     #  setup your html layout layout to wrap around your LiquidMarkdown output
